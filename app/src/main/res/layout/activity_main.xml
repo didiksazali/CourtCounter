@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="iakdilo.didiksazali.com.courtcounter.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Team A"
+                android:textColor="#F44336"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/skorA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btnTigaA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+3 Points"
+                android:background="#FFC107"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btnDuaA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+2 Points"
+                android:background="#FFC107"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btnSatuA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Free Thrown"
+                android:background="#FFC107"
+                android:layout_marginBottom="15dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Team B"
+                android:textColor="#2196F3"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/skorB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btnTigaB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+3 Points"
+                android:background="#FFC107"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btnDuaB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+2 Points"
+                android:background="#FFC107"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btnSatuB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Free Thrown"
+                android:background="#FFC107"
+                android:layout_marginBottom="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal">
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:background="#FF5722"
+        android:padding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
